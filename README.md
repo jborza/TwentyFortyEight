@@ -1,3 +1,3 @@
-2048 game
+# 2048 game
 
-A sample 2048 game in Godot engine
+A sample 2048 game in Godot engine, developed against a number puzzle tutorial
