@@ -1,3 +1,20 @@
-[gd_scene format=3 uid="uid://04f3hvvaow3n"]
+[gd_scene load_steps=3 format=3 uid="uid://dr6c2kngbbot6"]
 
-[node name="Tile" type="Node2D"]
+[ext_resource type="Script" path="res://Tile.cs" id="1_b7p7q"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_mb5xk"]
+font_size = 36
+font_color = Color(0, 0, 0, 1)
+
+[node name="Tile" type="Polygon2D"]
+color = Color(0.690196, 0.690196, 0.690196, 1)
+polygon = PackedVector2Array(0, 0, 100, 0, 100, 100, 0, 100)
+script = ExtResource("1_b7p7q")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 99.0
+offset_bottom = 98.0
+text = "0"
+label_settings = SubResource("LabelSettings_mb5xk")
+horizontal_alignment = 1
+vertical_alignment = 1
