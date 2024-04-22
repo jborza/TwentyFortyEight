@@ -1,6 +1,9 @@
-[gd_scene format=3 uid="uid://dmbu8yq5wjvhh"]
+[gd_scene load_steps=2 format=3 uid="uid://dmbu8yq5wjvhh"]
+
+[ext_resource type="Script" path="res://Grid.cs" id="1_smh5y"]
 
 [node name="Grid" type="Node2D"]
+script = ExtResource("1_smh5y")
 
 [node name="Background" type="Polygon2D" parent="."]
 color = Color(0.733333, 0.67451, 0.623529, 1)
